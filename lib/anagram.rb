@@ -15,6 +15,7 @@ class Anagram
       return nuarray
     else
       return nuarray
+    end
   end
 
 
