@@ -8,13 +8,12 @@ class Anagram
     empty =[]
     array.each do |words|
       if words.split('').sort == @word.split('').sort
-        nuarray << words 
-      end 
-    end 
+        nuarray << words
+      end
+    end
     return empty if nuarray.empty?
   end
-        
-        
+
+
 
 end
-
