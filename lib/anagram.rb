@@ -6,13 +6,15 @@ class Anagram
   end
   def match(array)
     nuarray = []
-    empty =[]
     array.each do |awords|
       if awords.split('').sort == @words.split('').sort
         nuarray << awords
       end
     end
-    return empty if nuarray.empty?
+    if nuarray.empty?
+      return nuarray 
+    else 
+      return nuarray
   end
 
 
