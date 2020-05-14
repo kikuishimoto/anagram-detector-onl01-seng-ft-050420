@@ -12,8 +12,8 @@ class Anagram
       end
     end
     if nuarray.empty?
-      return nuarray 
-    else 
+      return nuarray
+    else
       return nuarray
   end
 
