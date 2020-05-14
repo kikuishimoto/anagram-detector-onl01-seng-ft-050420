@@ -1,14 +1,14 @@
 class Anagram
-  attr_accessor word:
+  attr_accessor words:
   def initialize(word)
-    @word = word
+    @words = word
   end
   def match(array)
     nuarray = []
     empty =[]
-    array.each do |words|
-      if words.split('').sort == @word.split('').sort
-        nuarray << words
+    array.each do |awords|
+      if awords.split('').sort == @words.split('').sort
+        nuarray << awords
       end
     end
     return empty if nuarray.empty?
